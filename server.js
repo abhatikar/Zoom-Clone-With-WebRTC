@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/:room', (req, res) => {
   console.log('roomid = ' + req.params.room)
-  res.render('room', { roomId: req.params.room })3000
+  res.render('room', { roomId: req.params.room })
 })
 
 io.on('connection', socket => {
