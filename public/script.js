@@ -7,7 +7,7 @@ const videoGrid = document.getElementById('video-grid')
 
 const myPeer = new Peer('someid', {
   secure: true, 
-  host: 'guarded-gorge-19138.herokuapp.com/', 
+  host: 'mysmartbell.herokuapp.com/', 
   port: 443,
 })
 
